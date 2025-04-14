@@ -1,0 +1,34 @@
+<View>
+  <Image name="image" value="$image" />
+
+  <Rectangle name="rect" toName="image" />
+  <!-- <Ellipse name="ellipse" toName="image" /> -->
+
+  <KeyPoint name="kp" toName="image" />
+
+  <Polygon name="polygon" toName="image" />
+
+  <Brush name="brush" toName="image" />
+
+  <Labels name="labels" toName="image" fillOpacity="0.3" strokeWidth="2">
+    <Label value="GBM" background="red"></Label>
+    <Label value="Podo" background="blue"></Label>
+    <Label value="Endo" background="green"></Label>
+    <Label value="Mcs" background="cyan"></Label>
+  </Labels>
+
+  <RectangleLabels name="tag" toName="image" fillOpacity="0.3" strokeWidth="2">
+    <Label value="EDD" background="yellow"></Label>
+  </RectangleLabels>
+  
+  <RectangleLabels name="tag_" toName="image" fillOpacity="1" strokeWidth="2">
+    <Label value="THICK" background="red"></Label>
+  </RectangleLabels>
+
+
+  <!-- <Relations>
+    <Relation value="similar" />
+    <Relation value="dissimilar" />
+  </Relations> -->
+
+</View>

@@ -1,0 +1,83 @@
+{   
+    "description" :  "s",
+
+    "user" : {
+        "id": 1,
+        "firstName": "Arvindra",
+        "lastName": "Sehmi",
+        "username": "vin",
+        "email": "vin@cloudopti.com",
+        "avatar": null,
+        "initials": "AS"
+    },
+  
+    "interfaces": [
+        "panel",
+        "update",
+        "submit",
+        "skip",
+        "auto-annotation",
+        
+        "controls",
+        "infobar",
+        "topbar",
+        "instruction",
+        "ground-truth",
+        "annotations:history",
+        "annotations:tabs",
+        "annotations:menu",
+        "annotations:current",
+        "annotations:add-new",
+        "annotations:delete",
+        "annotations:view-all",
+        "predictions:tabs",
+        "predictions:menu",
+        "edit-history",
+        "topbar:prevnext"
+    ],
+
+
+    "config":"app/label_studio_configs/xml/img_tools.xml",
+
+
+    "task": {
+                "annotations": [
+                    {
+                        "id": "1001",
+                        "lead_time": 15.053,
+                        "result":[
+                            
+                            ]
+
+                    }
+                ],
+                "predictions": [
+                    {
+                        
+                        "lead_time": 15.053,
+                        "result":[
+                            {
+                                "original_width": 2242,
+                                "original_height": 2802,
+                                "image_rotation": 0,
+                                "value": {
+                                    "x": 3.26666666666667,
+                                    "y": 3.941302027748133,
+                                    "width": 12.666666666666666,
+                                    "height": 10.885805763073638,
+                                    "rotation": 0
+                                },
+                                "id": "kuZf2E5DRQ",
+                                "from_name": "rect",
+                                "to_name": "image",
+                                "type": "rectangle",
+                                "origin": "manual"
+                            } ]}
+                ],
+                "id": 1,
+
+                "data": {
+                    "image": []
+                }
+            }
+}

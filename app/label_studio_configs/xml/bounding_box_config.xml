@@ -1,0 +1,8 @@
+<View>
+    <View style="padding: 25px; box-shadow: 2px 2px 8px #AAA;">
+        <Image name="img" value="$image" width="100%" brightnessControl="true" contrastControl="true" zoomControl="true" rotateControl="true"></Image>
+    </View>
+    <RectangleLabels name="tag" toName="img" fillOpacity="0.2" strokeWidth="2">
+        <Label value="EDD"></Label>
+    </RectangleLabels>
+</View>

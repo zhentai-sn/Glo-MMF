@@ -1,0 +1,11 @@
+
+<View>
+    <View style="padding: 25px; box-shadow: 2px 2px 8px #AAA;">
+        <Image name="img" value="$image" width="100%" brightnessControl="true" contrastControl="true" zoomControl="true" rotateControl="true"/>
+    </View>
+
+    <BrushLabels name="tag" toName="img">
+        <Label value="GBM" background="rgba(255, 0, 0, 0.5)"/>
+    </BrushLabels>
+
+</View>
